@@ -1,0 +1,24 @@
+.card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+.avatar {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+.user-info {
+    flex: 1;
+}
+.info {
+    list-style: none;
+    padding: 0;
+}
+.info li {
+    margin: 5px 0;
+}
