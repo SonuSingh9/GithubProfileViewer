@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 300px;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(38, 143, 255, 0.2);
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.user-info {
+    flex: 1;
+}
+
+.user-info h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #007bff;
+}
+
+.user-info p {
+    font-size: 16px;
+    color: #666;
+    margin: 10px 0;
+}
+
+ul.info {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.info li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+ul.info strong {
+    color: #007bff;
+}
+
+#repos {
+    margin-top: 20px;
+}
+
+.repo {
+    display: block;
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    margin-bottom: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.repo:hover {
+    background-color: #007bff;
+    color: #fff;
+}
